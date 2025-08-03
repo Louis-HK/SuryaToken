@@ -1,0 +1,29 @@
+# Roadmap
+
+_Last updated: 2025-08-03_
+
+## Phase 0: Foundation
+- [x] Define strategic objectives  
+- [x] Draft vision & whitepaper outline  
+- [x] Design token economics  
+- [ ] Build initial simulation scripts  
+
+## Phase 1: MVP / Prototype
+- [ ] Implement smart contracts (minting, staking, reward curves)  
+- [ ] Integrate primary energy data feed  
+- [ ] Build tokenomics simulator  
+- [ ] Deploy test infrastructure  
+
+## Phase 2: Pilot
+- [ ] Onboard initial energy producers  
+- [ ] Issue tokens for verified generation  
+- [ ] Tune economic parameters  
+
+## Phase 3: Scaling
+- [ ] Launch governance layer  
+- [ ] Expand to new regions  
+- [ ] Release public dashboard
+
+## Backlog
+- Integration with Submarine Space  
+- DAO community governance
