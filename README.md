@@ -43,7 +43,7 @@ pip install -r requirements.txt
 # run tokenomics simulation
 python simulate_tokenomics.py
 
-## Simulation snapshot
+### Simulation snapshot
 
 Baseline and stress scenarios were run to validate token issuance dynamics and treasury stabilisation.
 
