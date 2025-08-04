@@ -1,0 +1,20 @@
+NOTICE
+======
+
+This repository is part of the SuryaToken project.
+
+Author: Louis-HK
+Contact: [Add your contact email or GitHub profile link]
+Year: 2024
+
+This project includes:
+- Tokenomics simulation scripts
+- Example datasets and scenario configurations
+- Visualization outputs for research and testing purposes
+
+This software is licensed under the MIT License (see LICENSE file).
+Any use of this code must include this NOTICE and the LICENSE in all copies or substantial portions of the software.
+
+Third-party libraries used in this project are subject to their own licenses.
+
+For questions, please open an issue on the repository.
