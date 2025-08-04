@@ -42,3 +42,22 @@ cd surya-token
 pip install -r requirements.txt
 # run tokenomics simulation
 python simulate_tokenomics.py
+
+## Simulation snapshot
+
+Baseline and stress scenarios were run to validate token issuance dynamics and treasury stabilisation.
+
+**Key results (example):**
+- Total SYT issued over 30 days (baseline): _<insert value from output>_  
+- Total SYT issued (stress): _<insert>_  
+- Treasury buffer remaining (baseline): see CSV  
+- Urgency factor behavior: dynamic increase when gap is large.
+
+### Visual sample
+<img src="./simulations/baseline_daily_reward.png" alt="Baseline daily reward" width="600"/>
+
+### Next steps from simulation
+- Feed urgency-adjusted issuance into on-chain oracle contract.  
+- Sweep parameters (`BASE_REWARD_PER_MWH`, `TARGET_GAP`) to produce sensitivity report.  
+- Export the best/worst-case summaries into release notes.
+
