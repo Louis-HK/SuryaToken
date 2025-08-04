@@ -34,29 +34,37 @@ SuryaToken is a blockchain-powered strategic initiative to accelerate Indonesia'
 - Wallet with permissions (for testnet / governance)  
 - Environment config (.env)
 
-### Installation 
+
+# SuryaToken – Tokenomics Simulator
+
+[![Latest Release](https://img.shields.io/github/v/release/Louis-HK/surya-token?style=for-the-badge&color=blue)](https://github.com/Louis-HK/surya-token/releases)
+[![License](https://img.shields.io/github/license/Louis-HK/surya-token?style=for-the-badge&color=green)](LICENSE)
+[![Code Size](https://img.shields.io/github/languages/code-size/Louis-HK/surya-token?style=for-the-badge&color=purple)](https://github.com/Louis-HK/surya-token)
+[![Last Commit](https://img.shields.io/github/last-commit/Louis-HK/surya-token?style=for-the-badge&color=orange)](https://github.com/Louis-HK/surya-token/commits/main)
+
+---
+
+**M&A Director | Blockchain & Strategic Finance Expert**  
+Passionate about innovation, tokenization, DeFi, and integrating advanced technologies into finance.
+
+SuryaToken addresses Indonesia’s urgent energy and ecological challenges, targeting the government’s goal of reducing CO₂ emissions by 29% by 2030.  
+Despite vast renewable potential, only 12% of electricity currently comes from these sources.  
+This simulator models token issuance dynamics based on energy production, market gap, and treasury stability mechanisms.
+
+---
+
+## 📦 Installation
+
 ```bash
 git clone https://github.com/Louis-HK/surya-token.git
 cd surya-token
+
 # install Python dependencies
 pip install -r requirements.txt
-# run tokenomics simulation
-python simulate_tokenomics.py
 
-### Simulation snapshot
+# copy configuration example
+cp .env.example .env
 
-Baseline and stress scenarios were run to validate token issuance dynamics and treasury stabilisation.
-
-**Key results (example):**
-- Total SYT issued over 30 days (baseline): _<insert value from output>_  
-- Total SYT issued (stress): _<insert>_  
-- Treasury buffer remaining (baseline): see CSV  
-- Urgency factor behavior: dynamic increase when gap is large.
-
-### Visual sample
-<img src="./simulations/baseline_daily_reward.png" alt="Baseline daily reward" width="600"/>
-
-### Next steps from simulation
 - Feed urgency-adjusted issuance into on-chain oracle contract.  
 - Sweep parameters (`BASE_REWARD_PER_MWH`, `TARGET_GAP`) to produce sensitivity report.  
 - Export the best/worst-case summaries into release notes.
