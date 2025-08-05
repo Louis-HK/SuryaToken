@@ -1,13 +1,29 @@
-# Ignore environment files
+# Environment
 .env
 
-# Ignore Python cache
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
 
-# Ignore node_modules
+# Node / Hardhat
 node_modules/
+cache/
+artifacts/
+typechain/
 
-# Ignore compiled artifacts
+# Build outputs
 dist/
 build/
+
+# OS
+.DS_Store
+*.log
+
+# IDE / Editors
+.vscode/
+*.swp
